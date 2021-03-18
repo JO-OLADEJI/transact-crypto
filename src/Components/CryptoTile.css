@@ -1,0 +1,28 @@
+.CryptoTile {
+  height: 10rem;
+  width: 10rem;
+  border: 1px solid white;
+  color: white;
+  margin: .5rem;
+  text-align: center;
+  padding-top: .5rem;
+  cursor: pointer;
+  border-radius: .5rem;
+}
+
+.CryptoTile i {
+  font-size: 5rem;
+  margin: .5rem;
+}
+
+.fa-bitcoin {
+  color: #f2a900;
+}
+
+.fa-ethereum {
+  color: #5C6187;
+}
+
+.fa-gg-circle {
+  color: #C30104;
+}

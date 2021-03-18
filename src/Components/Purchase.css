@@ -1,0 +1,73 @@
+.Purchase {
+  color: white;
+}
+
+.Purchase form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.space {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+input[type="number"] {
+  height: 3rem;
+  width: 12rem;
+  border-radius: .5rem;
+  border: none;
+  padding: .5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.fa-exchange-alt {
+  margin: .8rem .5rem 0 .5rem;
+  color: #2196F3;
+  font-size: 1.5rem;
+}
+
+.fa-dollar-sign {
+  margin-right: .5rem;
+  font-size: 1.2rem;
+}
+
+#conversion {
+  width: 12rem;
+  height: 3rem;
+  background-color: white;
+  border-radius: .5rem;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.Purchase button {
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+  border-radius: 2rem;
+  border: none;
+  cursor: pointer;
+  background-color: #2196F3;
+  color: white;
+  transition: all ease .5s;
+}
+
+.Purchase button:focus {
+  outline: none;
+}
+
+.Purchase button:hover {
+  background-color: white;
+  color: #2196F3;
+  border: 2px solid #2196F3;
+}
